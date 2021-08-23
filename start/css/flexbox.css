@@ -1,6 +1,11 @@
-.navigation {
+.flexnavigation {
     display:flex;
     flex-wrap:wrap;
     flex-direction:column;
-    background-color:rgb(224, 224, 224);
+    align-items:center;
+    align-content:center;
+    background-color:rgb(231, 231, 231);
+}
+.flexnavitems {
+    flex-grow:1;
 }

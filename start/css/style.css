@@ -2,17 +2,17 @@
   display:inline-block;
   font-family: 'Open Sans', sans-serif;
 }
-header {}
-main {
-  display:flex;
+header {
   text-align:center;
+
+}
+main {
+  text-align: center;
 }
 .headername {
   text-align: center;
-  font-size: 1.2em;
+  font-size:1.6em; 
 }
-
-
 
 
 
