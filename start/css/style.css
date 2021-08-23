@@ -1,3 +1,32 @@
 * {
   display:inline-block;
+  font-family: 'Open Sans', sans-serif;
+}
+header {}
+main {
+  display:flex;
+  text-align:center;
+}
+.headername {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.copyright {
+  height:100vh;
+  text-align:center;
 }

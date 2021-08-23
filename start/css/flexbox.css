@@ -1,0 +1,6 @@
+.navigation {
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+    background-color:rgb(224, 224, 224);
+}
