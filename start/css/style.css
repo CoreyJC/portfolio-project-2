@@ -10,6 +10,7 @@
 nav {
   background-color:rgb(241, 241, 241);
 }
+
 .headername {
    font-size:1.6em;
    padding-top:10px;
@@ -49,16 +50,15 @@ a {
 
 
 
-
-
-footer {
-  background-color:rgb(241,241,241);
-}
-.contactme {
+.footercontact {
   font-size:1.4em;
   padding-top:20px;
   padding-bottom:20px;
+}
 
+footer {
+  background-color:rgb(241,241,241);
+  border-top:4px solid rgb(231, 231, 231);
 }
 
 .flexnavigation {
@@ -77,5 +77,5 @@ footer {
   background-color: rgb(247, 247, 247);
   width: 85%;
   margin: 5px;
-  padding:5px;
+  padding:10px;
 }
