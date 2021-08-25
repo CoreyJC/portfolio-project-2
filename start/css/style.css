@@ -20,10 +20,6 @@ nav {
   padding-top:30px;
 }
 
-.portfolioh2 {
-  margin-top:30px;
-  margin-bottom:30px;
-}
 p {
   font-size:1.4em;
   padding: 5px 10px 5px 10px;
@@ -39,15 +35,22 @@ a {
   color:inherit;
   font-size:1.2em;
 }
-.marketingwebsite {
+
+.portfolioh2 {
+  margin-top:15px;
+  margin-bottom:15px;
+}
+
+.portfolioheader {
+  margin-top:30px;
+  margin-bottom:30px;
+}
+.portfoliopictures {
   width:100%;
   height:auto;
   border-top:2px solid rgb(218, 218, 218);
   padding-bottom:20px;
 }
-
-
-
 
 
 .footercontact {
@@ -61,6 +64,17 @@ footer {
   border-top:4px solid rgb(231, 231, 231);
 }
 
+.backtotop {
+  background-color:rgb(230, 230, 230);
+  font-weight:bold;
+  font-size:1.4em;
+  padding:15px 10px 15px 10px;
+}
+
+.copyright {
+  font-size:1.2em;
+}
+
 .flexnavigation {
   display:flex;
   flex-wrap:wrap;
@@ -69,6 +83,7 @@ footer {
   align-content:center;
   background-color:rgb(241, 241, 241);
 }
+
 .flexnavitems {
   flex-grow:1;
   flex-basis:100%;
