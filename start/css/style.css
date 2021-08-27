@@ -52,16 +52,20 @@ a {
   padding-bottom:20px;
 }
 
+.portfoliop {
+  margin-bottom:20px;
+}
+
 
 .footercontact {
-  font-size:1.4em;
+  font-size:1.6em;
   padding-top:20px;
   padding-bottom:20px;
 }
 
 footer {
-  background-color:rgb(241,241,241);
-  border-top:4px solid rgb(231, 231, 231);
+  background-color:rgb(223, 223, 223);
+  border-top:4px solid rgb(199, 199, 199);
 }
 
 .backtotop {
@@ -71,6 +75,9 @@ footer {
   padding:10px 5px 10px 5px;
   width:70%;
   border-radius:10px;
+  margin-top:20px;
+  margin-bottom:30px;
+
 }
 
 .copyright {
@@ -95,4 +102,12 @@ footer {
   width: 85%;
   margin: 5px;
   padding:10px;
+}
+.flexmain {
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:column;
+  align-items:center;
+  align-content:center;
+  background-color:rgb(241, 241, 241);
 }
