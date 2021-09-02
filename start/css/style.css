@@ -117,15 +117,6 @@ footer {
   align-content:center;
   background-color:rgb(241, 241, 241);
 }
-/* Media */
-
-
-
-
-
-
-
-
     /*animations*/
 
 .in-left {
@@ -196,3 +187,49 @@ footer {
   }
 }
 
+/* Media */
+
+@media screen and (min-width: 768px) {
+
+nav {
+  background-color:rgb(241,241,241);
+}
+
+header {
+    background-color:rgb(241,241,241);
+    font-size:1.2em;
+    padding: 10px 0px 40px 10px;
+  }
+.headername {
+  padding:20px 0px 20px 0px;
+}
+
+
+.flexnavigation {
+    display:inline-flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+  }
+  .flexnavitems {
+    flex-grow:1;
+    flex-basis:100%;
+  }
+.flexnavigation li {
+    background-color:inherit;
+    width: 85%;
+    margin: 5px;
+    padding:10px;
+  }
+.flexheader {
+    display:inline-flex;
+    flex-direction:row-reverse;
+  }
+.flexheaditems {
+    flex-grow: 1;
+  }
+  #flexheaderp {
+    margin-top:85px;
+    font-size: 1.4em;
+    color:rgb(102, 102, 102)
+  }
+}
