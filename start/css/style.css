@@ -44,6 +44,8 @@ a {
 .portfolioheader {
   margin-top:30px;
   margin-bottom:30px;
+  padding-bottom:30px;
+  background-color:rgb(255, 255, 255);
 }
 .portfoliopictures {
   width:100%;
@@ -187,7 +189,7 @@ footer {
   }
 }
 
-/* Media */
+/* Media 768px */
 
 @media screen and (min-width: 768px) {
 
@@ -200,13 +202,24 @@ header {
     font-size:1.2em;
     padding: 10px 0px 40px 10px;
   }
+  
+main {
+  background-color:rgb(241, 241, 241);
+}
+
 .headername {
   padding:20px 0px 20px 0px;
 }
 
+.portfoliopictures {
+  width:50%;
+  height:auto;
+  padding-bottom:20px;
+}
+
 
 .flexnavigation {
-    display:inline-flex;
+    display:flex;
     flex-direction:row;
     flex-wrap:nowrap;
   }
@@ -231,5 +244,27 @@ header {
     margin-top:85px;
     font-size: 1.4em;
     color:rgb(102, 102, 102)
+  }
+  .flexmain {
+    display:inline-flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    margin:10px 0px 30px 0px;
+  }
+
+  .flexmainitem {
+    flex-grow:1;
+    max-width:50%;
+    justify-content:stretch;
+    align-self:stretch;
+  }
+  .portfoliop {
+    margin:0px 10px 0px 10px;
+    font-size: 1.2em;
+  }
+  .portfoliopictures {
+    width:90%;
+    height:auto;
+    padding-bottom:5px;
   }
 }
