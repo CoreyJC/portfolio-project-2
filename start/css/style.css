@@ -99,9 +99,9 @@ footer {
   background: linear-gradient(90deg, rgba(222,222,222,1) 0%, rgba(187,187,187,1) 34%, rgba(166,166,166,1) 50%, rgba(187,187,187,1) 64%, rgba(222,222,222,1) 100%);
   font-weight:bold;
   font-size:1.2em;
-  padding:10px 30px 10px 30px;
   border-radius:10px;
-  margin:10px 10px 15 px 10px;
+  width:40%;
+  margin-bottom:10px;
 }
 
 #copyright {
@@ -158,6 +158,9 @@ footer {
 }
 .extrasitem {
   padding: 0px 30px 0px 30px;
+}
+.bottomnav {
+  display:none;
 }
    
 
@@ -266,18 +269,25 @@ header {
   padding-bottom:5px;
 }
 
-.copyright {
+#copyright {
   text-align:left;
-  margin-left:30px;
 }
 
-.backtotop {
-  margin:0px;
-  padding:0px;
-  float:right;
-  width:30%;
+.borderdiv {
+  border-top: 2px solid rgb(206, 206, 206);
+  margin-top:25px;
 }
 
+.bottomnav {
+  display:show;
+}
+.extrascontainer {
+  display:inline-block;
+  margin-top:25px;
+}
+#backtotop {
+  display:none;
+}
 
         /*flex*/
 
@@ -287,45 +297,46 @@ header {
     flex-direction:row;
     flex-wrap:nowrap;
     width: calc(100% / 2 - 5px);
-  }
+}
 
   .flexnavitems {
     font-size:0.9em;
-  }
+}
 
 .flexnavigation li {
     background-color:inherit;
     width: 85%;
     margin: 5px;
     padding:10px;
-  }
+}
 
 .flexheader {
     display:inline-flex;
     flex-direction:row-reverse;
-  }
+}
 
 .flexheaditems {
     flex-grow: 1;
-  }
+}
 
-  #flexheaderp {
+#flexheaderp {
     margin-top:85px;
     font-size: 1.4em;
     color:rgb(102, 102, 102)
-  }
+}
   
-  .flexmain {
+.flexmain {
     display:inline-flex;
     flex-wrap:wrap;
     flex-direction:row;
     margin:10px 0px 30px 0px;
-  }
+}
 
-  .flexmainitem {
+.flexmainitem {
     flex-grow:1;
     max-width:50%;
     justify-content:stretch;
     align-self:stretch;
-  }
+}
+
 }
