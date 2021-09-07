@@ -79,7 +79,7 @@ a {
 
 
 .footercontact {
-  font-size:1.6em;
+  font-size:1.2em;
   padding-top:20px;
   padding-bottom:20px;
 }
@@ -110,14 +110,6 @@ footer {
 
 #contactphone {
   margin-bottom:20px;
-}
-
-#contactextras {
-  visibility:hidden;
-}
-
-#portfolioextras {
-  visibility:hidden;
 }
 
 
@@ -151,18 +143,6 @@ footer {
   align-content:center;
 }
 
-.flexextrascontainer {
-  display:flex;
-  flex-wrap:wrap;
-  flex-direction:column;
-}
-.extrasitem {
-  padding: 0px 30px 0px 30px;
-}
-.bottomnav {
-  display:none;
-}
-   
 
         /*animations*/
 
@@ -278,13 +258,6 @@ header {
   margin-top:25px;
 }
 
-.bottomnav {
-  display:show;
-}
-.extrascontainer {
-  display:inline-block;
-  margin-top:25px;
-}
 #backtotop {
   display:none;
 }
