@@ -12,6 +12,10 @@ nav {
   background-color:rgb(241, 241, 241);
 }
 
+main {
+  min-height:65vh;
+}
+
 p {
   font-size:1.4em;
   padding: 5px 10px 5px 10px;
@@ -96,7 +100,7 @@ footer {
   font-size:1.0em;
   color:rgb(110, 110, 110);
   float:left;
-  width:40%;
+  width:60%;
   margin:20px 0px 10px 0px;
 
 }
@@ -120,6 +124,9 @@ footer {
   visibility:hidden;
 }
 
+.bottomnavhide {
+  display:none;
+}
 
 
         /*ID's*/
@@ -164,7 +171,7 @@ footer {
         /*animations*/
 
 
-.in-left {
+.animationin-left {
   -webkit-animation-name: fadeInLeft;
   -moz-animation-name: fadeInLeft;
   -o-animation-name: fadeInLeft;
@@ -285,6 +292,11 @@ header {
   color:rgb(110, 110, 110);
 }
 
+.bottomnavhide {
+  display:initial;
+}
+
+
         /*flex*/
 
 
@@ -338,11 +350,24 @@ header {
 .flexbottomnav {
   display:flex;
   flex-direction:row;
-  padding-left:150px;
   margin:20px 0px 10px 0px;
 }
 .flexbottomnavchild {
   flex-grow:1;
 }
 
+
+      /*media 1028*/
+
+
+@media screen and (min-width:1084px) {
+  .flexmain {
+    margin:0px 0px 50px 0px;
+}
+
+.flexmainitem {
+    max-width:32%;
+    margin:10px 0px 10px 0px;
+}
+} 
 }
