@@ -11,12 +11,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
-<nav>
+<nav id="home">
     <h1 class="headername"> Corey Summerow</h1>
         <ul class="flexnavigation">
-            <li class="flexnavitems"> <a href="index.html"><h3>HOME</h3></a></li>
-            <li class="flexnavitems"> <a href="portfolio.html"><h3>PORTFOLIO</h3></a></li>
-            <li class="flexnavitems"> <a href="contact.html"><h3>CONTACT</h3></a></li>
+            <li class="flexnavitems"> <a href="#home"><h3>HOME</h3></a></li>
+            <li class="flexnavitems"> <a href="#portfolio"><h3>PORTFOLIO</h3></a></li>
+            <li class="flexnavitems"> <a href="#contact"><h3>CONTACT</h3></a></li>
         </ul>
     </nav>
 <header>
@@ -26,6 +26,7 @@
     </ul>
 </header>
 <main>
+    <section id="portfolio">
     <H2 class="portfolioheader"> PORTFOLIO </h2>
          <ul class="flexmain">
             <li class="flexmainitem"><a href="marketingwebsitelink"><img class="portfoliopictures" src="images/portfolio-1.png" alt="picture of marketing website"></a>
@@ -59,15 +60,18 @@
               <p class="portfoliop"> Someone can enter in the numbers they want, and press the big blue button and get the result. </p></li>
          </ul>
         </div>
+    </section>
 </main>
 </body>
     <footer>
+        <div id="contact">
         <h3 class="footercontact"> CONTACT</h3>
         <p class="contactmep"> If your interested in chatting or want more information about what ive been working on,I'd love to hear from you!</p>
     <div class="emailphone">
         <pre id="contactphone"><h3>Phone   +1(423)291-9419</h3></pre>
         <pre id="contactemail"><h3>Email   csummerow@gmail.com</h3></pre>
     </div>
+</div>
     <div class=borderdiv>
         <a href="index.html"><p class="backtotop">BACK TO TOP</p></a>
         <div>
@@ -75,9 +79,9 @@
         </div>
         <div class="bottomnavhide">
     <ul class="flexbottomnav">
-        <li class="flexbottomnavchild"><a href="index.html"><p class="bottomnav">HOME</p></a></li>
-        <li class="flexbottomnavchild"><a href="portfolio.html"><p class="bottomnav">PORTFOLIO</p></a></li>
-        <li class="flexbottomnavchild"><a href="contact.html"><p class="bottomnav">CONTACT</p></a></li>
+        <li class="flexbottomnavchild"><a href="#home"><p class="bottomnav">HOME</p></a></li>
+        <li class="flexbottomnavchild"><a href="#portfolio"><p class="bottomnav">PORTFOLIO</p></a></li>
+        <li class="flexbottomnavchild"><a href="#contact"><p class="bottomnav">CONTACT</p></a></li>
     </div>
      </ul>
     </div>
