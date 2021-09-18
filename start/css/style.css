@@ -3,25 +3,31 @@
   box-sizing:border-box;
   display:block;
   padding:0;
-  margin:0 auto;
+  margin:0;
   text-align:center;
   color:rgb(48, 48, 48);
 }
-
+body {
+  margin:auto;
+  align-content:center;
+}
 nav {
   background-color:rgb(241, 241, 241);
 }
 
 main {
   min-height:65vh;
+  margin:auto;
 }
 
 p {
   font-size:1.4em;
   padding: 5px 10px 5px 10px;
+  margin:auto;
 }
 header {
   background-color:rgb(241, 241, 241);
+  margin:auto;
 }
 header p {
   padding-bottom:20px;
@@ -34,12 +40,8 @@ a {
 
 
             /*classes*/
-.headername {
-   font-size:1.8em;
-   font-weight:bold;
-   padding-top:10px;
-   padding-bottom:10px;
-   background-color:rgb(241, 241, 241);
+.titlename {
+display:none;
 }
 
 .profilepic {
@@ -135,21 +137,13 @@ footer {
 .flexnavigation {
   display:flex;
   flex-wrap:wrap;
-  flex-direction:row;
+  flex-direction:column;
+  align-items:center;
   background-color:rgb(241, 241, 241);
-  justify-content:center;
 }
 
 .flexnavitems {
   flex-grow:1;
-  flex-basis:100%;
-}
-
-.flexnavigation li {
-  background-color: rgb(247, 247, 247);
-  width: 85%;
-  margin: 5px;
-  padding:10px;
 }
 
 .flexmain {
@@ -157,6 +151,16 @@ footer {
   flex-wrap:wrap;
   flex-direction:column;
   align-content:center;
+}
+
+.flexheader {
+  display:flex;
+  flex-direction:column;
+  margin:auto;
+}
+
+.flexheaditems {
+  margin:auto;
 }
 
 
@@ -207,10 +211,6 @@ header {
         /*classes*/
 
 
-.headername {
-  padding:20px 0px 20px 0px;
-}
-
 .portfoliop {
   margin:0px 10px 0px 10px;
   font-size: 1.2em;
@@ -251,19 +251,25 @@ header {
 .flexnavigation {
     display:flex;
     flex-direction:row;
-    flex-wrap:nowrap;
-    width: calc(100% / 2 - 5px);
+    flex-wrap:wrap;
+    align-content:space-between;
 }
 
   .flexnavitems {
     font-size:0.9em;
+    margin:0px 20px;
 }
 
-.flexnavigation li {
-    background-color:inherit;
-    width: 85%;
-    margin: 5px;
-    padding:10px;
+.flexnavlinks {
+  list-style:none;
+  margin-left:auto;
+}
+.flexnavlinks li {
+  display:inline-block;
+}
+
+.flexnavlogo {
+  margin-right:auto;
 }
 
 .flexheader {
@@ -285,6 +291,7 @@ header {
     display:inline-flex;
     flex-wrap:wrap;
     flex-direction:row;
+    align-content:flex-end;
     margin:10px 0px 30px 0px;
 }
 
@@ -298,10 +305,12 @@ header {
 .flexbottomnav {
   display:flex;
   flex-direction:row;
-  margin:20px 0px 10px 0px;
+  align-content:flex-end;
+  margin:20px 0px 0px 0px;
 }
 .flexbottomnavchild {
   flex-grow:1;
+  align-content:flex-end;
 }
 
 
@@ -310,10 +319,27 @@ header {
 
 @media screen and (min-width:1024px) {
 
-  .headername {
-    float:left;
-    margin-left:50px;
+.flexnavigation {
+ flex-direction:row;
+ align-content:space-between;
+}
+    
+.flexnavlinks {
+   list-style:none;
+   margin-left:auto;
   }
+
+.flexnavitems {
+  margin:0px 20px;
+}
+
+.flexnavlinks li {
+  display:inline-block;
+}
+
+.flexnavlogo {
+  margin-right:auto;
+}
 
   .flexmain {
     margin:0px 0px 50px 0px;
@@ -324,8 +350,5 @@ header {
     margin:10px 0px 10px 0px;
 }
 
-.flexnavigation {
-width: calc(100% / 2 - 150px);
-}
 } 
 }
