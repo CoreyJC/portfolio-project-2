@@ -93,18 +93,13 @@ footer {
 .copyright {
   font-size:1.0em;
   color:rgb(110, 110, 110);
-  float:left;
-  width:60%;
-  margin:20px 0px 10px 0px;
-
+  margin-left:0;
+  margin-right:auto;
 }
 
 .backtotop {
   font-size:1.0em;
   color:rgb(110, 110, 110);
-  float:right;
-  width:40%;
-  margin:20px 0px 10px 0px;
   font-weight:bold;
 }
 .borderdiv {
@@ -118,7 +113,7 @@ footer {
   visibility:hidden;
 }
 
-.bottomnavhide {
+.flexbottomnavlinks {
   display:none;
 }
 
@@ -142,8 +137,18 @@ footer {
   background-color:rgb(241, 241, 241);
 }
 
+.flexnavigation li {
+  background-color: rgb(244, 244, 244);
+  width: 250px;
+  margin:8px;
+}
+
 .flexnavitems {
   flex-grow:1;
+}
+
+.flexnavlogo {
+  margin:10px 0px 10px 0px;
 }
 
 .flexmain {
@@ -151,6 +156,7 @@ footer {
   flex-wrap:wrap;
   flex-direction:column;
   align-content:center;
+  margin:auto;
 }
 
 .flexheader {
@@ -161,6 +167,14 @@ footer {
 
 .flexheaditems {
   margin:auto;
+}
+
+
+.flexbottomnav {
+  display:flex;
+  flex-direction:row-reverse;
+  align-content:flex-end;
+  margin:20px 0px 0px 0px;
 }
 
 
@@ -221,27 +235,19 @@ header {
   padding-bottom:5px;
 }
 
-.copyright {
-  text-align:left;
-}
-
 .borderdiv {
   border-top: 2px solid rgb(206, 206, 206);
   margin-top:25px;
 }
 
 .backtotop {
-  visibility:hidden;
+  display:none;
 }
 
 .bottomnav {
   visibility:visible;
   font-size:1.0em;
   color:rgb(110, 110, 110);
-}
-
-.bottomnavhide {
-  display:initial;
 }
 
 
@@ -255,6 +261,12 @@ header {
     align-content:space-between;
 }
 
+.flexnavigation li {
+  background-color:inherit;
+  width:auto;
+  margin:10px;
+}
+
   .flexnavitems {
     font-size:0.9em;
     margin:0px 20px;
@@ -263,6 +275,7 @@ header {
 .flexnavlinks {
   list-style:none;
   margin-left:auto;
+  margin-right:25px;
 }
 .flexnavlinks li {
   display:inline-block;
@@ -270,6 +283,7 @@ header {
 
 .flexnavlogo {
   margin-right:auto;
+  margin-left:25px;
 }
 
 .flexheader {
@@ -292,7 +306,8 @@ header {
     flex-wrap:wrap;
     flex-direction:row;
     align-content:flex-end;
-    margin:10px 0px 30px 0px;
+    margin-left:5%;
+    margin-right:auto;
 }
 
 .flexmainitem {
@@ -300,6 +315,7 @@ header {
     max-width:50%;
     justify-content:stretch;
     align-self:stretch;
+    margin:10px 0;
 }
 
 .flexbottomnav {
@@ -310,7 +326,17 @@ header {
 }
 .flexbottomnavchild {
   flex-grow:1;
-  align-content:flex-end;
+}
+
+.flexbottomnavlinks {
+  display:initial;
+  list-style:none;
+  
+}
+
+.flexbottomnavlinks li {
+  display:inline-block;
+  
 }
 
 
@@ -342,7 +368,8 @@ header {
 }
 
   .flexmain {
-    margin:0px 0px 50px 0px;
+    margin-left:5%;
+    margin-right:auto;
 }
 
 .flexmainitem {
